@@ -1,0 +1,222 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+@font-face {
+     font-family: 'grafik-medium';
+     src: url(../font/Graphik-Medium.ttf);
+     font-family: 'grafik-regular';
+     src: url(../font/Graphik-Regular.woff);
+     font-family: 'Theinhardt';
+     src: url(../font/Theinhardt-Lt.woff);
+     font-family: 'TiemposHeadline';
+     src: url(../font/TiemposHeadline-Semibold.woff);
+}
+header nav a,
+#critiqued h1 {
+     font-family: 'grafik-regular';
+}
+header > a {
+     font-family: 'grafik-medium';
+     text-decoration: none;
+     color: #27282a;
+     border: 1px solid #27282a;
+     padding-top: 0.3em;
+     padding-right: 1em;
+     padding-left: 1em;
+}
+header > a:hover {
+     color: white;
+     background: black;
+}
+header h2 {
+     font-family: 'TiemposHeadline';
+     font-size: 1.2em;
+}
+header ul {
+     display: flex;
+     list-style: none;
+}
+header li {
+     padding-left: 0.5em;
+}
+header nav a {
+     text-decoration: none;
+     color: #27282a;
+}
+header {
+     display: flex;
+     justify-content: space-between;
+     padding-top: 1em;
+     padding-right: 3em;
+     padding-left: 2.5em;
+     padding-bottom: 3em;
+}
+#critiqued {
+     background: url(../img/home_hero.png) center/cover no-repeat;
+     text-align: center;
+}
+#critiqued h1 {
+     padding-bottom: 80vh;
+}
+#review {
+     margin-top: 10%;
+     margin-left: 5%;
+     margin-right: 10%;
+     display: flex;
+     align-items: center;
+}
+#review div:first-of-type p {
+     width: 70%;
+     font-family: 'grafik-medium';
+     line-height: 150%;
+}
+#review div:nth-of-type(2) {
+     margin-right: 20%;
+}
+#review div:nth-of-type(2) p:last-of-type {
+     font-family: 'Theinhardt';
+     color: #9fa2a7;
+}
+#review div:nth-of-type(2) p:first-of-type {
+     font-size: 3em;
+     padding-bottom: 0.2em;
+}
+#Deliverables {
+     display: flex;
+     margin-top: 10%;
+     margin-left: 5%;
+     margin-right: 5%;
+}
+#Deliverables img {
+     width: 40%;
+}
+#Deliverables div {
+     padding-left: 0.5em;
+}
+#Deliverables h1 {
+     font-family: 'TiemposHeadline';
+     font-size: 2.5em;
+     padding-bottom: 1em;
+}
+#Deliverables h2 {
+     font-family: 'grafik-medium';
+     padding-bottom: 1em;
+     padding-top: 1em;
+     font-size: 1em;
+}
+#Deliverables p {
+     font-family: 'Theinhardt';
+}
+#works {
+     background: rgba(159, 162, 167, 0.3);
+     display: flex;
+     margin-top: 10%;
+     margin-left: 5%;
+     margin-right: 5%;
+     padding-bottom: 5%;
+}
+#works img {
+     width: 40%;
+}
+#works div {
+     width: 40%;
+     padding-right: 10em;
+}
+#works h1 {
+     font-family: 'TiemposHeadline';
+     padding-top: 1em;
+     padding-bottom: 0.8em;
+     padding-left: 2em;
+     font-size: 2.5em;
+}
+#works p,
+#works li {
+     font-family: 'Theinhardt';
+}
+#works p {
+     padding-left: 4em;
+}
+#works ol {
+     padding-left: 6em;
+}
+#critique {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 7%;
+}
+#critique h1 {
+     font-family: 'TiemposHeadline';
+     padding-bottom: 0.8em;
+     font-size: 2.5em;
+}
+#critique p {
+     line-height: 2em;
+     font-family: 'Theinhardt';
+     color: #9fa2a7;
+     width: 40%;
+}
+#average {
+     margin-right: 5%;
+     margin-left: 8%;
+}
+#average img {
+     width: 70%;
+     display: inline-block;
+     transform: translateY(-65%);
+     margin-right: 8%;
+}
+#average p {
+     transform: translateY(-37%);
+}
+#average div {
+     font-family: 'grafik-medium';
+     display: flex;
+     color: #9fa2a7;
+}
+#average h2 {
+     font-size: 20em;
+     color: #9fa2a7;
+     opacity: 0.3;
+     font-family: 'Theinhardt';
+     padding-top: 5%;
+}
+
+#average div,
+#average h2 {
+     padding-left: 5%;
+}
+#average div p {
+     line-height: 200%;
+}
+#getIn {
+     border-top: 1px solid #9fa2a7;
+     margin-left: 5%;
+     margin-right: 10%;
+     text-align: center;
+}
+#getIn h1 {
+     font-family: 'TiemposHeadline';
+     padding-bottom: 0.8em;
+     font-size: 2.5em;
+     margin-top: 5%;
+}
+#getIn div {
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+}
+#getIn img {
+     width: 7%;
+}
+#getIn p {
+     font-family: 'grafik-medium';
+     color: #9fa2a7;
+}
+#getIn a {
+     text-decoration: none;
+     font-family: 'grafik-medium';
+     color: #27282a;
+}
